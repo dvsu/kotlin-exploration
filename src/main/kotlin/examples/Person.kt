@@ -1,4 +1,4 @@
-package example
+package examples
 
 class Person(var Name: String) {
 

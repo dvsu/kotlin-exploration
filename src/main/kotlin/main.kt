@@ -41,4 +41,19 @@ fun main(args: Array<String>) {
 
     // Part 13: Tail recursive functions. Please see examples.part13_tailrecursivefunctions.kt
     tailRecursiveFunctionsExample()
+
+    // Part 14: Interfaces. Please see examples.part14_interfaces.kt
+    interfacesExample()
+
+    // Part 15: Classes. Please see examples.part15_classes.kt
+    classesExample()
+
+    // Part 16: Sealed classes. Please see examples.part16_sealedclasses.kt
+    sealedClassesExample()
+
+    // Part 17: Constructors. Please see examples.part17_constructors.kt
+    constructorsExample()
+
+    // Part 18: Data classes. Please see examples.part18_dataclasses.kt
+    dataClassesExample()
 }

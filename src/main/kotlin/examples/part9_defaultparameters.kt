@@ -22,7 +22,7 @@ fun defaultParametersExample() {
 // 'discount' is the default parameter as it has the default value.
 // the value, however, can be changed when specific value is given
 
-// Java does not have default parameter.
+// Java does not support default parameter.
 // In order to use default parameter in Java, we have to use annotation
 // '@JvmOverloads' to enable the default parameter
 @JvmOverloads

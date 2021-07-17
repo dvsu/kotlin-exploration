@@ -1,63 +1,16 @@
-import examples.Person
-import examples.nullSafetyExample
-import examples.whenExample
-import examples.exceptionExample
-import examples.loopingExample
-
+import examples.*
 
 fun main(args: Array<String>) {
     println("Quick Kotlin demonstration")
 
-    println("""
-    .-----.----------------------------------------------------------------------------------.
-    |  1  |  Class and Function: Basic                                                       |
-    '-----'----------------------------------------------------------------------------------'
-    """.trimIndent())
-    // use 'val' keyword to make a variable immutable, i.e. cannot be reassigned
-    // use 'var' keyword to make a variable mutable
-    // as variable 'student' is unchanged, it is recommended to make it immutable
-    val student = Person("Adam")
+    // Part 1: Class and function. Please see examples.part1_classandfunction.kt
+    classAndFunctionExample()
 
-    // calling a function of a class
-    student.describe()
+    // Part 2: String templates. Please see examples.part2_stringtemplates.kt
+    stringTemplatesExample()
 
-    // passing a function to a class function
-    student.describeUsingLambda(::printName)
-
-    println("""
-    .-----.----------------------------------------------------------------------------------.
-    |  2  |  String templates/ interpolation                                                 |
-    '-----'----------------------------------------------------------------------------------'
-    """.trimIndent())
-
-    val strp = StringInterp()
-
-    // Basic string interpolation
-    strp.basic()
-
-    // or alternatively using curly braces for compound variable
-    println("Alternatively ${strp.num}")
-
-    println("""
-    .-----.----------------------------------------------------------------------------------.
-    |  3  |  Conditional statement                                                           |
-    '-----'----------------------------------------------------------------------------------'
-    """.trimIndent())
-
-    val notQuiteTernary = true
-    val ternMessage = if (notQuiteTernary) "Not really a ternary operator" else "This is ternary"
-    println(ternMessage)
-
-    val result = 25
-    val threshold = 30
-    val currentValue = if (result < threshold) {
-        println("Within safe range")
-        result
-    } else {
-        println("Out of range")
-        threshold
-    }
-    println("Current value is $currentValue")
+    // Part 3: Conditional statement. Please see examples.part3_conditional.kt
+    conditionalExample()
 
     // Part 4: Null safety. Please see examples.part4_nullsafety.kt
     nullSafetyExample()
@@ -70,18 +23,22 @@ fun main(args: Array<String>) {
 
     // Part 7: Looping. Please see examples.part7_looping.kt
     loopingExample()
+
+    // Part 8: Function expression. Please see examples.part8_functionexpression.kt
+    functionExpressionExample()
+
+    // Part 9: Default parameters. Please see examples.part9_defaultparameters.kt
+    defaultParametersExample()
+
+    // Part 10: Named parameters. Please see examples.part10_namedparameters.kt
+    namedParametersExample()
+
+    // Part 11: Extension functions. Please see examples.part11_extensionfunctions.kt
+    extensionFunctionsExamples()
+
+    // Part 12: Infix functions. Please see examples.part12_infixfunctions.kt
+    infixFunctionsExample()
+
+    // Part 13: Tail recursive functions. Please see examples.part13_tailrecursivefunctions.kt
+    tailRecursiveFunctionsExample()
 }
-
-
-fun printName(name: String) {
-    println(name)
-}
-
-class StringInterp {
-    val num = 256
-
-    fun basic() {
-        println("Basic string interpolation $num")
-    }
-}
-

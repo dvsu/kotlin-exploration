@@ -56,4 +56,22 @@ fun main(args: Array<String>) {
 
     // Part 18: Data classes. Please see examples.part18_dataclasses.kt
     dataClassesExample()
+
+    // Part 19: Object. Please see examples.part19_object.kt
+    objectExample()
+
+    // Part 20: Extending objects. Please see examples.part20_extendingobjects.kt
+    extendingObjectsExample()
+
+    // Part 21: Companion objects. Please see examples.part21_companionobjects.kt
+    companionObjectsExample()
+
+    // Part 22: Anonymous classes. Please see examples.part22_anonymousclasses.kt
+    anonymousClassesExample()
+
+    // Part 23: Higher order functions. Please see examples.part23_higherorderfunctions.kt
+    higherOrderFunctionsExample()
+
+    // Part 24: With and apply. Please see examples.part24_withandapply.kt
+    withAndApplyExample()
 }

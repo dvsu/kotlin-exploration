@@ -1,4 +1,4 @@
-# kotlin-exploration
+# Kotlin Exploration
 
 A collection of Kotlin codes, features, and examples
 
@@ -17,3 +17,14 @@ Table of contents:
 11. Extension Functions
 12. Infix Functions
 13. Tail Recursive Functions
+14. Interfaces
+15. Classes
+16. Sealed Classes
+17. Constructors
+18. Data Classes
+19. Object
+20. Extending Objects
+21. Companion Objects
+22. Anonymous Classes
+23. Higher Order Functions
+24. With and Apply

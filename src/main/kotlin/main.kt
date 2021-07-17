@@ -3,31 +3,31 @@ import examples.*
 fun main(args: Array<String>) {
     println("Quick Kotlin demonstration")
 
-    // Part 1: Class and function. Please see examples.part1_classandfunction.kt
+    // Part 1: Class and function. Please see examples.part01_classandfunction.kt
     classAndFunctionExample()
 
-    // Part 2: String templates. Please see examples.part2_stringtemplates.kt
+    // Part 2: String templates. Please see examples.part02_stringtemplates.kt
     stringTemplatesExample()
 
-    // Part 3: Conditional statement. Please see examples.part3_conditional.kt
+    // Part 3: Conditional statement. Please see examples.part03_conditional.kt
     conditionalExample()
 
-    // Part 4: Null safety. Please see examples.part4_nullsafety.kt
+    // Part 4: Null safety. Please see examples.part04_nullsafety.kt
     nullSafetyExample()
 
-    // Part 5: Condition switching using 'when' expression. Please see example.part5_when.kt
+    // Part 5: Condition switching using 'when' expression. Please see example.part05_when.kt
     whenExample()
 
-    // Part 6: Exception handing. Please see examples.part6_exception.kt
+    // Part 6: Exception handing. Please see examples.part06_exception.kt
     exceptionExample()
 
-    // Part 7: Looping. Please see examples.part7_looping.kt
+    // Part 7: Looping. Please see examples.part07_looping.kt
     loopingExample()
 
-    // Part 8: Function expression. Please see examples.part8_functionexpression.kt
+    // Part 8: Function expression. Please see examples.part08_functionexpression.kt
     functionExpressionExample()
 
-    // Part 9: Default parameters. Please see examples.part9_defaultparameters.kt
+    // Part 9: Default parameters. Please see examples.part09_defaultparameters.kt
     defaultParametersExample()
 
     // Part 10: Named parameters. Please see examples.part10_namedparameters.kt
